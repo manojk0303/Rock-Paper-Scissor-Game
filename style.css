@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+*{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    padding: 3rem;
+}
+p{
+    padding: 1rem;
+}
+.far{
+    font-size: 4rem;
+    padding: 2rem;
+}
+.container{
+    min-height: 90vh;
+    width: 70%;
+    margin: auto;
+margin-top:5vh:
+    background-color: rgb(255, 255, 255);
+    border: 0.5rem solid rgb(117, 40, 189);
+    
+}
+#text-score{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+#output{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(91, 19, 158) ;
+    color: white;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    text-align: center;
+   
+
+}
+#points{
+    background-color: rgb(91, 19, 158);
+
+    color: white;
+    border-radius:0.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+#choices{
+    width: 80%;
+    margin: auto;
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+  flex-wrap: wrap;
+}
+#vs-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#p{
+    padding: 1rem;
+}
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
+@media only screen and (max-width: 768px) {
+   *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-size:1rem;
+}
+#p,#text-score,#user-win,#bot-win{
+font-size:0.7rem;}
+img{
+        height: 50px;
+        width: 50px;
+        padding: 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .container{
+        width: 100%;
+    }
+    img{
+        padding: none;
+    }
+    .far{
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
